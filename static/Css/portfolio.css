@@ -1,0 +1,42 @@
+header .container
+{
+  display: flex;
+}
+header .logo img {
+  max-height: 50px;
+}
+
+nav ul {
+  margin-left:auto;
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Space between navigation items */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333; /* Choose the color that fits your design */
+}
+header .banner img {
+  width: 100%;  /* Set the image width to the full width of the screen */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  max-height: 400px; /* You can set a maximum height if needed */
+  object-fit: cover; /* Optional: Ensures the image covers the space without distortion */
+}
+
+ .Content
+{
+  background-color: #FAF0E6;
+}
+.pages
+{
+  background-color: white;
+  margin: 100px;
+  margin-top: 40px;
+
+}
