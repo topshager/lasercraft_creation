@@ -45,3 +45,12 @@ header .banner img {
   margin-top: 0%;
   background-color: pink;
 }
+.portfolio-section h1 ,p
+{
+  font-family: "Lucida Handwriting";
+}
+
+footer .cta-button
+{
+font-family: "Lucida Handwriting";
+}

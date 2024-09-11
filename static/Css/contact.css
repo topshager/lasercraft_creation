@@ -40,3 +40,13 @@ header .banner img {
   margin-top: 40px;
 
 }
+.Contact
+{
+  background-color: #D2E0FB;
+  padding-top: 40px;
+  margin: 60px;
+}
+.container,h2,h3,p
+{
+  padding: 20px;
+}
