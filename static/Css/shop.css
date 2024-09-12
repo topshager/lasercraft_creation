@@ -1,0 +1,184 @@
+header .container
+{
+  display: flex;
+}
+header .logo img {
+  max-height: 50px;
+}
+
+nav ul {
+  margin-left:auto;
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Space between navigation items */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333; /* Choose the color that fits your design */
+}
+header .banner img {
+  width: 100%;  /* Set the image width to the full width of the screen */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  max-height: 400px; /* You can set a maximum height if needed */
+  object-fit: cover; /* Optional: Ensures the image covers the space without distortion */
+}
+.Content .How_it_works
+{
+   border-bottom: 1px solid black ;
+   margin-bottom: 30px;
+   color: aqua;
+
+}
+.Content ,.How_it_worksh1 ,h1,p
+{
+   color: black;
+   text-align: center;
+
+}
+
+.container nav
+{
+padding-left: 100px;
+padding-top: 20px;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #FFB300;
+}
+
+.portfolio-gallery h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 50px;
+}
+
+.portfolio-gallery p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  color: #f7f7f7;
+}
+
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li {
+  margin: 0 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  padding: 50px 0;
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-item {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black ;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-overlay h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.portfolio-overlay p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Footer */
+footer {
+  background-color: pink;
+  color: beige;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .cta-button {
+  display: inline-block;
+  background-color: #5A3A2A;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+footer .cta-button:hover {
+  background-color: #D88A00;
+}
